@@ -1,7 +1,7 @@
 use std::io;
 
 fn main() {
-    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    let a: [i32; 9] = [1, 2, 3, 4, 5, 6, 6, 10, 15];
     println!("Enter an array index:");
 
     let mut index = String::new();
@@ -17,3 +17,5 @@ fn main() {
     let element = a[index];
     println!("The value of the element at index {index} is: {element}");
 }
+
+
